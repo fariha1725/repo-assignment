@@ -1,0 +1,78 @@
+header {
+    padding: 50px 140px;
+}
+/* code for styling navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu-items {
+    display: flex;
+    gap: 30px;
+}
+.menu-items a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-items a:nth-child(1) {
+    color: orangered;
+}
+
+/* code for hero section */
+
+.hero {
+    margin: 100px 0;
+    width: 100%;
+    height: 450px;
+    background-image: url("../repo-assignment/Images/travel.jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section {
+    width: 62%;
+    border-radius: 8px;
+    margin: 10px auto;
+    background-color: rgba(240, 248, 255, 0.403);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.select {
+    padding: 16px 10px;
+    border-radius: 8px;
+    border: none;
+}
+.input-section select{
+    margin-left: -20px;
+}
+
+.when,
+.select{
+    display: flex;
+
+
+}
+
+.find-btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
